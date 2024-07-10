@@ -16,5 +16,8 @@ int main()
     {
         cout << it->first << " " << it->second << endl; // Outputs each key-value pair in the map
     }
+    
+    // Counting occurrences of a key
+    cout << mp.count("akib") << endl; // Outputs the number of occurrences of "akib" (expected: 1)
     return 0;
 }
